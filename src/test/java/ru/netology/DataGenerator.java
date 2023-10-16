@@ -31,7 +31,7 @@ public class DataGenerator {
                 .post("/api/system/users")
                 .then()
                 .statusCode(200);
-        return user;
+
     }
 
     public static String getRandomLogin() {
