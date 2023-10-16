@@ -32,6 +32,7 @@ public class DataGenerator {
                 .then()
                 .statusCode(200);
 
+        return user;
     }
 
     public static String getRandomLogin() {
